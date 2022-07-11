@@ -18,7 +18,6 @@ border:groove #757575;
   margin-right: 93px;
   text-decoration: none;
   font-family: 'Raleway',sans-serif;
-  font-style: normal;
   font-size: 26px;
   line-height: 1,19;
   letter-spacing: 0.03em;
@@ -32,20 +31,18 @@ border:groove #757575;
   list-style-type: none;
   margin-right: 10px;
   Font-size: 14px;
-  Line-height: 24px;
-  Line-height: 146%;
+  line-height: 1.7;
   text-align: Left;
   vertical-align:Top;
   letter-spacing: 3%;
 }
- .contact-link {
+.contact-link {
   text-decoration: none;
   list-style-type: none;
   column-count: 2;
   color: #757575;
   font-size: 14px;
-  line-height: 16px;
-  line-height: 100%;
+  line-height: 1.14;
   text-align: Left;
   vertical-align: Top;
   letter-spacing: 2%;
@@ -53,8 +50,7 @@ border:groove #757575;
 .hr { 
  text-decoration: none;
  font-size: 14px;
-line-height: 16px;
-line-height: 100%;
+line-height: 1.14;
 text-align: Left;
 vertical-align: Top;
 letter-spacing: 2%; 
@@ -68,8 +64,7 @@ list-style-type: none;
   color: #212121;
   text-decoration: none;
   font-size: 14px;
- line-height: 16px;
- line-height: 100%;
+ line-height: 1.14;
  text-align: left;
  letter-spacing: 2%;
 
@@ -96,8 +91,7 @@ align-content: center;
 .hero-title{
 font-size: 44px;
 color: white;
-line-height: 60px;
-line-height: 116%;
+line-height: 1.36;
 text-align:center;
 letter-spacing: 6%;
 text-transform: uppercase;
@@ -116,8 +110,7 @@ display: block;
 color: #212121;
 font-style: Bold;
 font-size: 36px;
-line-height: 42px;
-line-height: 100%;
+line-height: 1.16;
 text-align: Center;
 vertical-align: Top;
 letter-spacing: 3%;
@@ -146,19 +139,16 @@ list-style-type: none;
 .work-title{
   list-style-type: none;
   font-size: 14px;
-line-height: 16px;
-Line-height: 100%;
+line-height: 1.14;
 text-align: Left;
 vertical-align: Top;
 letter-spacing: 3%;
 }
 .work-text{
   list-style-type: none;
-  font-size: 14px;
   color: #757575;
   font-size: 14px;
-line-height: 24px;
-line-height: 146%;
+line-height: 1.7;
 text-align: Left;
 vertical-align: Top;
 letter-spacing: 3%;
@@ -179,13 +169,13 @@ letter-spacing: 3%;
 .team-name {
   list-style-type: none;
 }
-.team-descriptoin {
+.team-descriptoin { 
+font-weight: 400;
 list-style-type: none;
 color: #757575;
 font-family: Roboto;
 font-size: 16px;
-line-height: 19px;
-line-height: 100%;
+line-height: 1.18;
 text-align: left;
 vertical-align: Top;
 letter-spacing: 3%;
@@ -193,8 +183,7 @@ letter-spacing: 3%;
 
 .headline {
   font-size: 14px;
-  line-height: 16px;
-  line-height: 100%;
+  line-height: 1.14px;
   text-align: left;
   vertical-align:top;
   letter-spacing: 3%;
@@ -202,8 +191,7 @@ letter-spacing: 3%;
 .desc{
   color:#757575;
   font-size: 14px;
- line-height: 16px;
- line-height: 100%;
+ line-height: 1.14;
  box-align: left;
  vertical-align: Top
 }
@@ -229,8 +217,7 @@ footer{
 .info{
     list-style-type: none;
  font-size: 14px;
- line-height: 24px;
- line-height: 146%;
+ line-height: 1.7;
  text-align: left;
  vertical-align: top;
  letter-spacing: 3%;
@@ -256,13 +243,13 @@ footer{
   margin-left: 495px;
   margin-right: 495px;
  font-size: 16px;
- line-height: 26px;
- line-height: 139%;
+ line-height: 1.6;
  text-align: Center;
  vertical-align: Top;
  letter-spacing: 3%;
 }
 .choice {
+  cursor: pointer;
   list-style-type: none;
   border: 0;
   background-color: #F5F4FA;
