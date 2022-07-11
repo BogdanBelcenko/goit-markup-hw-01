@@ -11,7 +11,7 @@
   letter-spacing: 0.03em;
 }
 .head{
-border:groove #757575;
+border-bottom: 2px solid  #757575;
 }
 .logo {
   text-indent: 215px;
@@ -31,7 +31,6 @@ border:groove #757575;
   list-style-type: none;
   margin-right: 10px;
   Font-size: 14px;
-  line-height: 1.7;
   text-align: Left;
   vertical-align:Top;
   letter-spacing: 3%;
@@ -97,6 +96,7 @@ letter-spacing: 6%;
 text-transform: uppercase;
 }
 .hero-btn {
+ cursor: pointer;
  background-color:#2196F3;
 color: white;
 height: 50px;
@@ -170,7 +170,6 @@ letter-spacing: 3%;
   list-style-type: none;
 }
 .team-descriptoin { 
-font-weight: 400;
 list-style-type: none;
 color: #757575;
 font-family: Roboto;
@@ -236,17 +235,12 @@ footer{
 } 
 .parameter-selection{
   list-style-type: none;
-  column-count: 5;
   margin-top: 174px;
   margin-bottom:56px; 
-  align-content: center;
-  margin-left: 495px;
-  margin-right: 495px;
- font-size: 16px;
- line-height: 1.6;
- text-align: Center;
- vertical-align: Top;
- letter-spacing: 3%;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: Center;
+  letter-spacing: 3%;
 }
 .choice {
   cursor: pointer;
@@ -274,4 +268,9 @@ footer{
 }
 .portfolio{
   list-style-type: none;
+}
+.portfolio-image {
+  padding: 6px 22px;
+  width: 128px;
+  background: #F5F4FA;
 }
