@@ -9,24 +9,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <header class="head">
-        <nav>
-            <a class="logo link" href="./index.html" lang="en">Web<span class="logo-accent">Studio </span>
-            </a>
+    <header class="head container">
+        <div class="cont">
+        <nav class="nav">
+        <a class="logo link" href="./index.html" lang="en">Web<span class="logo-accent">Studio </span> </a>
             <ul class="hr">
-                <li><a class="nav-link" href="./index.html">Студия</a></li>
-                <li><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
-                <li><a class="nav-link" href="">Контакты</a></li>
+            <li><a class="nav-link" href="./index.html">Студия</a></li>
+            <li><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
+            <li><a class="nav-link" href="">Контакты</a></li>
             </ul>
         </nav>
-        </ul>
+        </ul>  
         <ul class="contact">
         <li><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a></li> 
         </ul>
+    </div>
     </header>
 <main>
-    <section>
+    <section class="container section">
     <ul class="parameter-selection">  
     <li><button class="choice" type="button"> Все</button></li>
     <li><button class="choice" type="button"> Веб-сайты</button></li>
@@ -35,8 +36,9 @@
     <li><button class="choice" type="button">Маркетинг </button></li>
     </ul>
 </section>
-<section>
+<section class="container section">
     <ul class="portfolio">
+        <div class="img-group">
         <li class="portfolio-image">
             <img src="./images/img8.jpg" alt="работник1" 
             width="370"
@@ -58,6 +60,8 @@
             <h3>Ресторан Seafood</h3>
             <p class="description">Приложение</p>   
         </li>
+    </div>
+        <div class="img-group">
         <li class="portfolio-image">
             <img src="./images/img11.jpg" alt="работник1" 
             width="370"
@@ -79,6 +83,8 @@
             <h3>Inspiration has no Borders</h3>
             <p class="description">Веб-сайт</p>  
         </li>
+    </div>
+        <div class="img-group">
         <li class="portfolio-image">
             <img src="./images/img14.jpg" alt="работник1" 
             width="370"
@@ -99,23 +105,23 @@
             height="294"/>
             <h3>Growing Business</h3>
             <p class="description">Приложение</p>   
-            
         </li>
+    </div>
     </ul>
 </section>
 </main>
-<footer>
+<footer class="footer container">
+    <div class="data">
     <a class="logo link" href="./index.html" lang="en">Web<span class="logo-last">Studio </span>
-    </a>
     </a>
     <address>
     <ul class="info">
-        
         <li><a class="address" href="https://bit.ly/3pXMvUd" target="_blank" rel="noopener noreferrer">г. Киев, пр-т
             Леси Украинки, 26</a> </li>
         <li><a class="contact-link" href="mailto:info@devstudio.com">info@example.com</a> </li>
         <li><a  class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a> </li>
     </ul>
+    </div>
     </address> 
     </footer>
     </body>
