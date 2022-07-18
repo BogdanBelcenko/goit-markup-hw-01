@@ -26,15 +26,13 @@ ul{
 }
 .container{
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: 0 auto;
 }
 .section {
-  padding: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .head{
-  height: 80px;
   display: flex;
 border-bottom: 2px solid  #757575;
 }
@@ -43,6 +41,7 @@ border-bottom: 2px solid  #757575;
   align-items: center;
 }
 .logo {
+  padding: 25px;
   margin-right: 93px;
   text-decoration: none;
   font-family: 'Raleway',sans-serif;
@@ -58,7 +57,6 @@ border-bottom: 2px solid  #757575;
 
 .contact {
   display: flex;
-  margin-left:auto;
   list-style-type: none;
   Font-size: 14px;
   text-align: Left;
@@ -83,7 +81,7 @@ border-bottom: 2px solid  #757575;
   display: flex;
 }
 .hr { 
-  margin-right: 344px;
+  margin-right: 300px;
   display: flex;
   align-items: center;
 text-decoration: none;
@@ -128,13 +126,13 @@ align-items: center;
   padding: 200px 452px;
 }
 .hero-title{
-  width: 696px;
 font-size: 44px;
 color: white;
 line-height: 1.36;
 text-align:center;
 letter-spacing: 6%;
 text-transform: uppercase;
+margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -165,8 +163,9 @@ list-style-type: none;
 .work {
   list-style-type: none;
   column-count: 4;
-  padding: 94px 215px 118px;
-
+  padding-top: 94px;
+padding-left: 215px;
+padding-right: 215px;
 }
 .visually-hidden {
   position: absolute;
@@ -187,6 +186,7 @@ line-height: 1.14;
 text-align: Left;
 vertical-align: Top;
 letter-spacing: 3%;
+margin-bottom: 10px;
 }
 .work-text{
   list-style-type: none;
@@ -199,6 +199,8 @@ letter-spacing: 3%;
 }
 .team {
   list-style-type: none;
+  background-color: fff;
+  width: 270px;
 }
 .team-name :not(:last-child){
   margin-right: 30px;
@@ -207,6 +209,7 @@ letter-spacing: 3%;
   background-color: #F5F4FA;
 }
 .team-name {
+  justify-content: center;
   display: flex;
   list-style-type: none;
   padding:50px auto;
@@ -227,7 +230,10 @@ text-align: left;
 vertical-align: Top;
 letter-spacing: 3%;
 }
-
+.team-info{
+  background-color:white;
+  width: 270px;
+}
 .headline {
   font-size: 14px;
   line-height: 1.14px;
@@ -254,14 +260,15 @@ letter-spacing: 3%;
 
 
 .footer{
+  padding: 60px;
+  padding-left: 215px;
   width: 1600px;
   background-color:#2F303A;
-  height: 252px;
   align-content: center;
   
 }
 .data{
-  margin: 60px auto 60px 215px;
+  padding: 60px auto 60px 215px;
 }
 .info{
   list-style-type: none;
