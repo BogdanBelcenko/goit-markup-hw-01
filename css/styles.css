@@ -324,21 +324,23 @@ letter-spacing: 3%;
 .description{
   color: #757575;
   list-style-type: none;
+  margin-top: 4px;
 
 }
 .portfolio{
   list-style-type: none;
 }
 .portfolio-image {
-  padding: 6px 22px;
   width: 370px;
   background: #F5F4FA;
 }
+.portfolio-text{
+  margin:20px 24px;
+}
 .img-group{
   display: flex;
-  
+  margin-bottom: 30px;
 }
 .img-group :not(:last-child){
   margin-right: 30px;
-  margin-bottom: 30px;
 }
