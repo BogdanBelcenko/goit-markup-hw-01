@@ -9,6 +9,7 @@ font-family: 'Roboto', sans-serif;
 font-size: 14px;
 background-color: #fff;
 letter-spacing: 0.03em;
+margin: 0;
 }
 h1,
 h2,
@@ -27,6 +28,7 @@ ul{
 .container{
   width: 1200px;
   margin: 0 auto;
+  justify-content: center;
 }
 .section {
   padding-top: 94px;
@@ -34,14 +36,17 @@ ul{
 }
 .head{
   display: flex;
-border-bottom: 2px solid  #757575;
 }
 .head >.cont {
   display: flex;
   align-items: center;
 }
+.cont {
+  border-bottom: 2px solid #757575;
+
+}
 .logo {
-  padding: 25px;
+  margin-top: 25px;
   margin-right: 93px;
   text-decoration: none;
   font-family: 'Raleway',sans-serif;
@@ -51,11 +56,11 @@ border-bottom: 2px solid  #757575;
   color: #2196F3;
 }
 .logo-accent {
-  
   color: #212121;
 }
 
 .contact {
+  margin-top: 32px;
   display: flex;
   list-style-type: none;
   Font-size: 14px;
@@ -64,7 +69,6 @@ border-bottom: 2px solid  #757575;
   letter-spacing: 3%;
 }
 .contact-link {
-  margin-left: auto;
   text-decoration: none;
   list-style-type: none;
   color: #757575;
@@ -81,7 +85,8 @@ border-bottom: 2px solid  #757575;
   display: flex;
 }
 .hr { 
-  margin-right: 300px;
+  margin-right: 290px;
+  padding: 32px;
   display: flex;
   align-items: center;
 text-decoration: none;
@@ -160,12 +165,10 @@ list-style-type: none;
 .personalities-and-preferences {
   list-style-type: none;
 }
-.work {
+.work { 
   list-style-type: none;
   column-count: 4;
   padding-top: 94px;
-padding-left: 215px;
-padding-right: 215px;
 }
 .visually-hidden {
   position: absolute;
@@ -201,9 +204,11 @@ letter-spacing: 3%;
   list-style-type: none;
   background-color: fff;
   width: 270px;
+  flex-wrap: wrap;
+  display: flex;
 }
 .team-name :not(:last-child){
-  margin-right: 30px;
+  padding-right: 30px;
 }
 .team-title{
   background-color: #F5F4FA;
@@ -211,15 +216,18 @@ letter-spacing: 3%;
 .team-name {
   justify-content: center;
   display: flex;
+  font-style: 0;
   list-style-type: none;
   padding:50px auto;
 }
 .team-member{
-  padding: 30px 65px  10px;
+  margin-top:30px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .team-descriptoin { 
-padding:10px 70px 30px 70px;
+margin:10px auto 30px auto;
 width: max-content;
 list-style-type: none;
 color: #757575;
@@ -233,6 +241,7 @@ letter-spacing: 3%;
 .team-info{
   background-color:white;
   width: 270px;
+
 }
 .headline {
   font-size: 14px;
