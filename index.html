@@ -37,7 +37,7 @@
       <section class="hero container">
         <div class="hero-content">
       <h1 class="hero-title">Эффективные решения<br>для вашего бизнеса</h1>
-      <button class="hero-btn" type="button">Заказать услугу</button>
+      <button class="hero-btn" type="button" id="" data-modal-open>Заказать услугу</button>
         </div>
     </section>
     <section class="work container">
@@ -84,22 +84,26 @@
     <section class="section-img container section">
       <h2 class="section-title">Чем мы занимаемся</h2>
   <ul class="image">
-  <li><img src="./images/img1.jpg"
+  <li class="development-item"><img src="./images/img1.jpg"
     width="370"
     height="294"
-    alt="Верстка"
-    />
+    alt="Верстка"/>
+	<h3 class="development-text">Десктопные приложения</h3>
+			</li>
   </li>
-    <li><img src="./images/img2.jpg"
+    <li class="development-item"><img src="./images/img2.jpg"
       width="370"
       height="294"
     alt="Дизайн"
-    />
+    />	<h3 class="development-text">Десктопные приложения</h3>
+			</li>
     </li>
-    <li><img src="./images/img3.jpg"
+    <li class="development-item"><img src="./images/img3.jpg"
       width="370"
       height="294"
     alt="Внешнее оформление"/>
+    <h3 class="development-text">Десктопные приложения</h3>
+			</li>
     </li>
   </ul>
   </section>
@@ -423,14 +427,8 @@
     <address>
       <li><a class="address" href="https://bit.ly/3pXMvUd" target="_blank" rel="noopener noreferrer">г. Киев, пр-т
           Леси Украинки, 26</a> </li>
-      <li><a class="contact-link" href="mailto:info@devstudio.com">
-        <svg class="icon-contacts">
-        <use href="./images/icons.svg#mail"></use>
-        </svg>info@example.com</a> </li>
-      <li><a  class="contact-link" href="tel:+380961111111"> 
-        <svg class="icon-contacts">
-        <use href="./images/icons.svg#mail"></use>
-      </svg>+38 096 111 11 11</a> </li>
+      <li><a class="contact-link" href="mailto:info@devstudio.com">info@example.com</a> </li>
+      <li><a  class="contact-link" href="tel:+380961111111"> +38 096 111 11 11</a> </li>
     </ul>
     </address>
     <ul class="footer-info">
@@ -488,5 +486,20 @@
         </ul>
   </div>
   </footer>
+  <script src="./js/modal.js"></script>
   </body>
 </html>
+
+<div id="openModal" class="modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title">Название</h3>
+        <a href="#close" title="Close" class="close">×</a>
+      </div>
+      <div class="modal-body">    
+        <p>Содержимое модального окна...</p>
+      </div>
+    </div>
+  </div>
+</div>
